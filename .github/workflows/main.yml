@@ -23,4 +23,4 @@ jobs:
         run: npm install && npm run build
 
       - name: Sync website files to S3 bucket
-        run: aws s3 sync . s3://staticwebsite-ka
+        run: aws s3 sync build/ s3://staticwebsite-ka
