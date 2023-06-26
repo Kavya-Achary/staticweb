@@ -1,4 +1,4 @@
-name: matson-test
+name: staticwebTest
 
 # Controls when the workflow will run
 on:
